@@ -1,0 +1,64 @@
+
+
+.pre-rotate {
+    -webkit-animation: rotate_anim infinite linear;
+}
+
+.pre-scale {
+    -webkit-animation: scale_anim 6s linear;
+}
+
+
+@-webkit-keyframes rotate_anim {
+    from {
+        -webkit-transform: rotate(0deg) ;
+        -moz-transform: rotate(0deg) ;
+        -ms-transform: rotate(0deg);
+
+    }
+  
+    to {
+        -webkit-transform: rotate(359deg);
+        -moz-transform: rotate(359deg) ;
+        -ms-transform: rotate(359deg);
+
+    }
+}
+
+@-webkit-keyframes scale_anim {
+    from {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform:  scale(1);
+
+    }
+  
+    to {
+        -webkit-transform: scale(0.206);
+        -moz-transform:  scale(0.206);
+        -ms-transform:  scale(0.206);
+
+    }
+}
+
+
+
+
+
+
+  
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg) scale(1);
+        -moz-transform: rotate(0deg) scale(1);
+        -ms-transform: rotate(0deg) scale(1);
+
+    }
+  
+    to {
+        -webkit-transform: rotate(359deg) scale(0.206);
+        -moz-transform: rotate(359deg) scale(0.206);
+        -ms-transform: rotate(359deg) scale(0.206);
+
+    }
+}

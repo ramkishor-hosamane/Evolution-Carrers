@@ -1,0 +1,86 @@
+.preloader-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 40;
+    background: #f4955c;
+    overflow: hidden;
+}
+
+.preloader-count-wrap
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.preloader-circular {
+
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+}
+
+
+::selection, ::selection {
+
+    color: #f4955c;
+    background: rgba(49,49,49,.99);
+
+}
+element {
+
+    transform: rotate(360deg);
+
+}
+.preloader-svg {
+
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+
+.preloader-circular svg {
+    display: block;
+    overflow: visible;
+    fill: rgba(49,49,49,.99);;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+
+}
+
+
+.rotate {
+   animation : rotation 10s linear;
+}
+  
+@keyframes rotation {
+    0% {
+        transform: rotate(-180deg) scale(1);
+      }
+      50% {
+        transform: rotate(0deg) scale(0.3);
+      }
+    
+      
+      100% {
+        transform: rotate(359deg) scale(0.3);
+
+      }
+    
+}

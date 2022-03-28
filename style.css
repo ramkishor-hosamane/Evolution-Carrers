@@ -1,0 +1,16 @@
+.demo{
+    position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);
+    font-size: 0px;
+    font-weight: bold;
+    color: black;
+}
+
+.percentage
+{
+    font-weight: bold;
+    color: rgba(49,49,49,.99);
+    font-size: 60px;
+}
+body{
+    background-color: #f4955c;
+    font-family: Verdana, sans-serif}
